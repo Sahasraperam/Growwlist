@@ -11,17 +11,10 @@ GrowwList answers the fundamental question every investor and trader faces:
 ## 🌟 Key Features
 
 - **🧠 Stock-Specific Attention Score**: Calculates movement significance normalized by historical daily volatility ($\text{Score} = \frac{\Delta \%}{\text{Typical Swing}}$), replacing arbitrary static percentage alerts.
-- **📌 User-Owned Last-Seen Checkpoints**: Atomic `Check In` updates your baseline reference prices without being overwritten by background polling.
-- **🛡️ Honest Data Provenance & Freshness Badges**: Renders transparent metadata badges (`BSE Live`, `BSE Delayed`, `BSE Stale`, `NSE EOD`, `DEMO · Simulated`).
-- **🔒 Full Multi-Tenant Isolation**: Row Level Security (RLS) policies on Supabase PostgreSQL ensure every user's watchlist data is strictly private.
-- **⚡ High-Performance Architecture**: Built with TanStack Start (SSR + Server Functions), React 19, TanStack Query client-side cache, and Supabase server-side quote caching.
-- **📊 Comprehensive Financial Views**:
-  - **Dashboard**: Main stock watchlist with live price updates and attention scores.
-  - **Stock Detail Pages**: Interactive historical charts, key metrics, and relevant news feeds.
-  - **Watchlist Manager**: Add/remove instruments with persistent BSE scripcode mapping.
-  - **Portfolio Tracker**: Monitor overall holdings and tracking metrics.
-  - **Analytics Hub**: Visualize market movement distributions and volatility statistics.
-- **🚫 Zero Synthetic Data Policy**: Strict separation between real exchange feeds and simulated test environments.
+- **🔖 Personal Check-In** — Save your own last-seen price so you can quickly spot what changed since your previous check.
+- **🔴 Clear Data Status** — See whether market data is live, delayed, stale, end-of-day, or simulated.
+- **📊 Stock Insights** — Explore price history, key metrics, volatility, and relevant news in one pl
+- **⚡ Fast & Responsive** — Built with React 19, TanStack Start, TanStack Query, and Supabase for a smooth experience.
 
 ---
 
